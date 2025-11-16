@@ -1,75 +1,53 @@
-# Portafolio - Adrian Herrera (React + Vite + Tailwind)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre | Data Scientist & Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tu Nombre Completo</h1>
+            <p>Data Scientist, Análisis Exploratorio de Datos (EDA) y Machine Learning con Python.</p>
+            <nav>
+                <a href="#about">Acerca de</a> |
+                <a href="#projects">Proyectos</a> |
+                <a href="https://github.com/TuUsuarioGitHub" target="_blank">GitHub</a>
+            </nav>
+        </div>
+    </header>
 
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2>Acerca de Mí</h2>
+            <p>Soy un profesional apasionado por transformar datos complejos en información accionable. Mi experiencia se centra en el uso de librerías como Pandas, Scikit-learn y Matplotlib para resolver problemas de negocio y predecir tendencias.</p>
+        </div>
+    </section>
 
-Repositorio generado automáticamente con la estructura mínima para un portafolio personal:
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Proyectos Clave</h2>
 
+            <div class="project-card">
+                <h3>Análisis Predictivo de Costos de Seguro Médico</h3>
+                <p>Análisis Exploratorio de Datos (EDA) y modelado de regresión para predecir los cargos de seguro. Se identificó a **ser fumador** y **la edad** como los principales factores de costos.</p>
+                <a href="URL_A_TU_REPOSITORIO_SEGUROS" target="_blank" class="btn">Ver Repositorio de GitHub</a>
+            </div>
 
-```
-portfolio-adrian/ # raíz del proyecto
-├─ package.json
-├─ vite.config.js
-├─ tailwind.config.cjs
-├─ postcss.config.cjs
-├─ public/
-│ └─ favicon.ico
-├─ src/
-│ ├─ main.jsx
-│ ├─ index.css
-│ ├─ App.jsx
-│ ├─ data/projects.js
-│ └─ components/
-│ ├─ Navbar.jsx
-│ ├─ Hero.jsx
-│ ├─ About.jsx
-│ ├─ Projects.jsx
-│ ├─ Contact.jsx
-│ └─ Footer.jsx
-└─ README.md
-```
+            <div class="project-card">
+                <h3>[Nombre de Otro Proyecto]</h3>
+                <p>Breve descripción de tu segundo mejor proyecto (ej. Clasificación de flores, análisis de ventas, etc.).</p>
+                <a href="#" target="_blank" class="btn">Ver Repositorio de GitHub</a>
+            </div>
+        </div>
+    </section>
 
-
----
-
-
-## package.json
-
-
-```json
-{
-"name": "portfolio-adrian",
-"version": "1.0.0",
-"private": true,
-"scripts": {
-"dev": "vite",
-"build": "vite build",
-"preview": "vite preview",
-"deploy": "gh-pages -d dist"
-},
-"dependencies": {
-"react": "^18.2.0",
-"react-dom": "^18.2.0"
-},
-"devDependencies": {
-"vite": "^5.0.0",
-"tailwindcss": "^3.4.0",
-"postcss": "^8.4.0",
-"autoprefixer": "^10.4.0",
-"gh-pages": "^5.0.0"
-}
-}
-```
-
-
----
-
-
-## vite.config.js
-
-
-```js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-
-export default defineConfig({
-plugins: [react()],
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tu Nombre. Contáctame: tu.email@ejemplo.com</p>
+        </div>
+    </footer>
+</body>
+</html>
